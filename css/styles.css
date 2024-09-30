@@ -3,7 +3,7 @@
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 2%;
-  line-height: 60px;
+  line-height: 1.071;
 }
 
 .header-2 {
@@ -18,4 +18,41 @@
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
+
+  body {
+    color: #2e2f42;
+    font-family: Roboto, Raleway, sans-serif;
+  }
+}
+.nav-webstudio {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-studio {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-studio:hover {
+  color: #404bbf;
+}
+.nav-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.nav-portfolio {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-portfolio:hover {
+  color: #404bbf;
+}
+
+.nav-contacts {
+  color: #2e2f42;
+  text-decoration: none;
+}
+.nav-contacts:hover {
+  color: #404bbf;
 }
