@@ -20,6 +20,9 @@ body {
 
 .header-2 {
   font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   font-size: 36px;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -139,5 +142,15 @@ body {
   background-color: #2e2f42;
 }
 
-.strategy-text {
+.section-3 {
+  background-color: #f4f4fd;
+}
+
+.heroes {
+  color: #ffffff;
+}
+
+.profession {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
