@@ -4,15 +4,16 @@ body {
   letter-spacing: 2%;
   line-height: 1.5;
   color: #434455;
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   background-color: #ffffff;
 }
 
 .header-1 {
   font-weight: 700;
   font-size: 56px;
-  letter-spacing: 2%;
-  line-height: 1.071;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+  text-align: center;
   color: #ffffff;
   background-color: #2e2f42;
 }
@@ -31,20 +32,27 @@ body {
   color: #2e2f42;
 }
 .nav-webstudio {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
+  line-height: 1.17;
+  font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #2e2f42;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
 .nav-webstudio .plan-name {
-  color: #404bbf;
+  color: #2e2f42;
 }
 
 .nav-studio {
   color: #2e2f42;
+  letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
+}
+.nav-studio:focus {
+  color: #404bbf;
 }
 .nav-studio:hover {
   color: #404bbf;
@@ -52,8 +60,12 @@ body {
 
 .nav-portfolio {
   color: #2e2f42;
+  letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
+}
+.nav-portfolio:focus {
+  color: #404bbf;
 }
 .nav-portfolio:hover {
   color: #404bbf;
@@ -61,46 +73,66 @@ body {
 
 .nav-contacts {
   color: #2e2f42;
+  letter-spacing: 0.02em;
   font-weight: 500;
   text-decoration: none;
+}
+.nav-contacts:focus {
+  color: #404bbf;
 }
 .nav-contacts:hover {
   color: #404bbf;
 }
 
 .mailto {
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
+}
+.mailto:focus {
+  color: #404bbf;
 }
 .mailto:hover {
   color: #404bbf;
 }
 
 .tel {
-  font-style: normal;
   font-weight: 400;
-  line-height: 1.33;
-  letter-spacing: 4%;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-decoration: none;
-  color: #2e2f42;
+  color: #434455;
 }
 .tel:hover {
   color: #404bbf;
 }
+.tel:focus {
+  color: #404bbf;
+}
+
 .button-service {
-  border: 0;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
 }
+.button-service:focus {
+  background-color: #404bbf;
+}
 .button-service:hover {
   background-color: #404bbf;
+}
+
+.adress-norm {
+  font-style: normal;
+}
+
+.section-1 {
+  background-color: #2e2f42;
 }
