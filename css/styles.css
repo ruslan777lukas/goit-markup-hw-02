@@ -1,9 +1,16 @@
+body {
+  color: #434455;
+  font-family: Roboto, Raleway, sans-serif;
+  background-color: #ffffff;
+}
+
 .header-1 {
   font-family: Roboto;
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 1.071;
+  color: #2e2f42;
 }
 
 .header-2 {
@@ -11,6 +18,7 @@
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 2%;
+  color: #2e2f42;
 }
 
 .header-3 {
@@ -18,15 +26,15 @@
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
-
-  body {
-    color: #2e2f42;
-    font-family: Roboto, Raleway, sans-serif;
-  }
+  color: #2e2f42;
 }
 .nav-webstudio {
   text-transform: uppercase;
   text-decoration: none;
+  color: #2e2f42;
+}
+.nav-webstudio .plan-name {
+  color: #404bbf;
 }
 
 .nav-studio {
@@ -54,5 +62,21 @@
   text-decoration: none;
 }
 .nav-contacts:hover {
+  color: #404bbf;
+}
+
+.mailto {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.mailto:hover {
+  color: #404bbf;
+}
+
+.tel {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.tel:hover {
   color: #404bbf;
 }
