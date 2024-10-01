@@ -49,10 +49,6 @@ body {
 .nav-studio:hover {
   color: #404bbf;
 }
-.nav-studio:active {
-  color: #404bbf;
-  text-decoration: underline;
-}
 
 .nav-portfolio {
   color: #2e2f42;
@@ -73,6 +69,10 @@ body {
 }
 
 .mailto {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 4%;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -81,6 +81,10 @@ body {
 }
 
 .tel {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
+  letter-spacing: 4%;
   text-decoration: none;
   color: #2e2f42;
 }
@@ -88,6 +92,7 @@ body {
   color: #404bbf;
 }
 .button-service {
+  border: 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
