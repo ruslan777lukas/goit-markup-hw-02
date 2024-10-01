@@ -1,20 +1,23 @@
 body {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2%;
+  line-height: 1.5;
   color: #434455;
   font-family: Roboto, Raleway, sans-serif;
   background-color: #ffffff;
 }
 
 .header-1 {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 2%;
   line-height: 1.071;
-  color: #2e2f42;
+  color: #ffffff;
+  background-color: #2e2f42;
 }
 
 .header-2 {
-  font-family: Roboto;
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 2%;
@@ -22,15 +25,16 @@ body {
 }
 
 .header-3 {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 2%;
   color: #2e2f42;
 }
 .nav-webstudio {
+  font-family: Raleway;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 700;
   color: #2e2f42;
 }
 .nav-webstudio .plan-name {
@@ -39,6 +43,7 @@ body {
 
 .nav-studio {
   color: #2e2f42;
+  font-weight: 500;
   text-decoration: none;
 }
 .nav-studio:hover {
@@ -51,6 +56,7 @@ body {
 
 .nav-portfolio {
   color: #2e2f42;
+  font-weight: 500;
   text-decoration: none;
 }
 .nav-portfolio:hover {
@@ -59,6 +65,7 @@ body {
 
 .nav-contacts {
   color: #2e2f42;
+  font-weight: 500;
   text-decoration: none;
 }
 .nav-contacts:hover {
@@ -79,4 +86,16 @@ body {
 }
 .tel:hover {
   color: #404bbf;
+}
+.button-service {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button-service:hover {
+  background-color: #404bbf;
 }
