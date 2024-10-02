@@ -8,6 +8,10 @@ body {
   background-color: #ffffff;
 }
 
+ul {
+  list-style: none;
+}
+
 .header-one {
   font-weight: 700;
   font-size: 56px;
