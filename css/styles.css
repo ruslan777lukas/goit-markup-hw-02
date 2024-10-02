@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
 }
 
-.header-1 {
+.header-one {
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
@@ -18,7 +18,7 @@ body {
   background-color: #2e2f42;
 }
 
-.header-2 {
+.header-two {
   font-weight: 700;
   line-height: 1.11;
   text-align: center;
@@ -28,7 +28,7 @@ body {
   color: #2e2f42;
 }
 
-.header-3 {
+.header-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -47,6 +47,12 @@ body {
 }
 .nav-webstudio .plan-name {
   color: #2e2f42;
+}
+.nav-webstudio .footer-name {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
 }
 
 .nav-studio {
@@ -138,15 +144,15 @@ body {
   font-style: normal;
 }
 
-.section-1 {
+.section-one {
   background-color: #2e2f42;
 }
 
-.section-3 {
+.section-three {
   background-color: #f4f4fd;
 }
 
-.section-3 .heroes {
+.section-three .heroes {
   background-color: #ffffff;
 }
 
@@ -154,4 +160,20 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.body-one {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+.product {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
 }
